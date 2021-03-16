@@ -1,0 +1,30 @@
+.waxom {
+  background-color: #FBFAF8;
+  @include flex-center-column;
+
+  &__title {
+    @include Ralewaythin(30px, 1.1667, 600);
+    text-align: center;
+    color: #555555;
+    margin-top: 80px;
+    /*font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;*/
+  }
+
+  &__text {
+    @include Montserrat(16px, 1.25, 300);
+    width: 40%;
+    text-align: center;
+    color: #8C8C8C;
+    padding: 20px 0px 42px 0px;
+    // margin: 20px 0 42px 0;
+    /*font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;*/
+  }
+}

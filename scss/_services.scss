@@ -1,0 +1,54 @@
+.services {
+  @include flex-center-space-between;
+
+  &__item {
+    width: 20%;
+    // min-height: 380px;
+    @include flex-center-column;
+    margin: 86px 0 86px 0;
+    // border: 1px solid cyan;
+  }
+
+  &__item:hover &__svg {
+    fill: #C7B299;
+  }
+
+  &__item:hover &__title {
+    color: #C7B299;
+  }
+
+  &__item:hover &__line {
+    background: #C7B199;
+  }
+
+  &__title {
+    @include Ralewaythin(22px, 1.1818, 600);
+    text-align: center;
+    color: #555555;
+    margin-top: 30px;
+    /*font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;*/
+  }
+
+  &__text {
+    @include Montserrat(14px, 1.2143, 300);
+    text-align: center;
+    color: #000000;
+    margin-top: 20px;
+    /*font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;*/
+  }
+
+  &__line {
+    width: 70px;
+    height: 3px;
+    background: #F1EEE9;
+    margin-top: 30px;
+  }
+}

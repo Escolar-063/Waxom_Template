@@ -1,0 +1,61 @@
+.mobile {
+
+  &__wrapper {
+    @include flex-center-space-around;
+    padding-top: 78px;
+    // border: 1px solid red;
+  }
+
+  &__item {
+    width: 57.26%;
+    padding: 112px 0 0 64px;
+    // border: 1px solid cyan;
+  }
+
+  &__title {
+    @include Ralewaythin(30p, 1.1667);
+    color: #555555;
+    /*font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;*/
+  }
+
+  &__text {
+    @include Montserrat(16px, 1.25, 300);
+    color: #8C8C8C;
+    padding-top: 20px;
+    /*font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;*/
+  }
+
+  &__list {
+    position: relative;
+    @include Montserrat(16px, 1.25, 300);
+    color: #8C8C8C;
+    padding: 49px 0 0 67px;
+    /*font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;*/
+  }
+
+  &__list_item {
+    padding: 10px 0 0 33px;
+    // border: 1px solid cyan;
+  }
+
+  &__list_item::before {
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    content: '';
+    background-image: url(../img/icon_content.svg);
+    margin-left: -33px;
+  }
+}

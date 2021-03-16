@@ -1,0 +1,55 @@
+@mixin Ralewaythin($font-size, $line-height, $font-weight: 400, $font-style: normal) {
+  font-size: $font-size;
+	line-height: $line-height;
+  font-weight: $font-weight;
+  font-style: $font-style;
+}
+
+@mixin Montserrat($font-size, $line-height, $font-weight: 400, $font-style: normal) {
+  font-size: $font-size;
+	line-height: $line-height;
+  font-weight: $font-weight;
+  font-style: $font-style;
+}
+
+@mixin Roboto($font-size, $line-height, $font-weight: 400, $font-style: normal) {
+  font-size: $font-size;
+	line-height: $line-height;
+  font-weight: $font-weight;
+  font-style: $font-style;
+}
+
+@mixin flex-center-space-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin flex-center-space-around {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin flex-center-column {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+@mixin tablet {
+    @media (min-width: 376px) and (max-width: $tablet-width) {
+        @content;
+    }
+}
+@mixin mobile {
+    @media (max-width: $mobile-width) {
+        @content;
+    }
+}

@@ -1,0 +1,214 @@
+.header {
+  background-image: url(../img/bg_header.jpg);
+  min-height: 1024px;
+
+  &__wrapper {
+    @include flex-center;
+  }
+
+  &__wrapper_logo {
+    width: 66.46%;
+    @include flex-center-space-between;
+    // display: flex;
+    // justify-content: space-between;
+    // padding-left: 322px;
+    // border: 1px solid cyan;
+  }
+
+  &__logo {
+    min-height: 133px;
+    @include flex-center-space-between;
+    // display: flex;
+    // justify-content: space-between;
+    // align-items: center;
+    // padding-top: 39px;
+    // border: 1px solid wheat;
+  }
+
+  &__logo_name {
+    @include Ralewaythin(34px, 1.1765);
+    color: #FFFFFF;
+    /*font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 40px;*/
+    /* border: 1px solid red; */
+  }
+
+  &__nav {
+    @include flex-center-space-between;
+    width: 57.91%;
+    // display: flex;
+    // justify-content: space-between;
+    // padding-top: 44px;
+    // border: 1px solid wheat;
+  }
+
+  &__nav_list {
+    width: 82.95%;
+    @include flex-center-space-between;
+    @include Montserrat(14px, 1.2143, 300);
+    color: #FFFFFF;
+    /*font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;*/
+    // border: 1px solid red;
+  }
+
+  &__nav_icons {
+    width: 9.74%;
+    @include flex-center-space-between;
+    // border: 1px solid cyan;
+  }
+
+  &__slogan {
+    @include flex-center-column;
+    // border: 1px solid cyan;
+  }
+}
+
+.slogan__text_unique {
+  @include Ralewaythin(36px, 1.1667, 500);
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 330px;
+  /*font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;*/
+}
+
+.slogan__fa_wrapper {
+  width: 83.33%;
+  @include flex-center-space-between;
+  // border: 1px solid cyan;
+}
+
+.slogan__text_portfolio {
+  @include Ralewaythin(52px, 1.39, 600);
+  text-align: center;
+  color: #FFFFFF;
+  /*font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 61px;*/
+  /* border: 1px solid cyan; */
+}
+
+.faal, .faar {
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+
+.faal:hover {
+  color: #00BFF3;
+}
+
+.faar:hover {
+  color: #00BFF3;
+}
+
+/*.faar {
+  color: #FFFFFF;
+  opacity: 0.5;
+}*/
+
+/*.slogan__text_portfolio::before {
+  position: absolute;
+  width: 39px;
+  height: 73px;
+  content: '';
+  background-image: url(../img/slider_header_left.svg);
+  margin: -5px 0 33px -260px;
+}
+
+.slogan__text_portfolio:hover::before {
+  background-image: url(../img/slider_header_left-blue.svg);
+}
+
+.slogan__text_portfolio::after {
+  position: absolute;
+  width: 39px;
+  height: 73px;
+  content: '';
+  background-image: url(../img/slider_header_right.svg);
+  margin: -5px 0 0 260px;
+}
+
+.slogan__text_portfolio:hover::after {
+  background-image: url(../img/slider_header_right-blue.svg);
+}*/
+
+.slogan__text_nam {
+  @include Montserrat(16px, 1.25);
+  text-align: center;
+  color: #FFFFFF;
+  /*font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;*/
+}
+
+.slogan__button_wrapper {
+  @include flex-center;
+  margin-top: 40px;
+  // border: 1px solid cyan;
+}
+
+.slogan__button {
+  background: #988574;
+  border-radius: 3px;
+  border: none;
+  @include Roboto(14px, 1.1429);
+  text-align: center;
+  text-transform: uppercase;
+  padding: 19px 40px;
+  color: #FFFFFF;
+  /*font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;*/
+}
+
+.ellipse__img {
+  @include flex-center;
+  margin: 244px 0 53px 0;
+  /* border: 1px solid cyan; */
+}
+
+.ellipse {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.5);
+  margin-right: 10px;
+}
+
+.ellipse:hover {
+  border: 1px solid #D3C1AD;
+  background: none;
+  transform: scale(1.5);
+}
+
+/*.faco {
+  // padding-right: 10px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-right: 10px;
+  // box-sizing: border-box;
+  // background: rgba(255, 255, 255, 0.5);
+}
+
+.faco:hover {
+// font-size: 20px;
+border: 1px solid #D3C1AD;
+border-radius: 10px;
+// color: #00BFF3;
+}*/
+

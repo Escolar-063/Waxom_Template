@@ -1,0 +1,124 @@
+.project {
+
+  &__wrapper {
+    @include flex-center-column;
+  }
+
+  &__title {
+    @include Ralewaythin(30px, 1.6667, 600);
+    text-align: center;
+    color: #555555;
+    padding-top: 61px;
+    /*font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;*/
+  }
+
+  &__text {
+    @include Montserrat(16px, 1.25, 300);
+    width: 68.55%;
+    text-align: center;
+    color: #8C8C8C;
+    padding: 9px 0 27px 0;
+    /*font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;*/
+    // border: 1px solid cyan;
+  }
+
+  &__button_block {
+    width: 50.43%;
+    @include flex-center-space-between;
+    // border: 1px solid cyan;
+  }
+
+  &__button_120 {
+    border: 1px solid #EBEBEB;
+    border-radius: 3px;
+    background: #FFFFFF;
+    min-width: 120px;
+    @include Montserrat(14px, 1.2143, 300);
+    color: #8C8C8C;
+    padding: 8px 0 8px 0;
+    // margin-right: 10px;
+    /*font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;*/
+  }
+
+  &__button_120:hover {
+    background: #998575;
+    border: 1px solid #EBEBEB;
+    box-sizing: border-box;
+    border-radius: 3px;
+    color: #FFFFFF;
+  }
+
+  &__button_70 {
+    min-width: auto;
+    padding: 8px 26px 8px 26px;
+  }
+
+  &__item_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &__item {
+    background: #FBFAF8;
+    margin-top: 69px;
+  }
+
+  &__item:hover {
+    background: #352F2D;
+  }
+
+  &__item_title {
+    @include Ralewaythin(20px, 1.15, 500);
+    color: #C7B299;
+    margin: 26px 0 8px 23px;
+    /*font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;*/
+  } 
+
+  &__item_text {
+    @include Montserrat(14px, 1.2143, 300);
+    color: #D1D1D1;
+    margin: 0 0 26px 23px;
+    /*font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;*/
+  }
+
+  &__button_wrapper {
+    margin: 47px 0 33px 0;
+  }
+
+  &__button {
+    background: #988574;
+    border-radius: 3px;
+    border: none;
+    @include Roboto(14px, 1.1429);
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 19px 32px;
+    /*font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;*/
+  }
+}

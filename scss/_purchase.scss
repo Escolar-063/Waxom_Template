@@ -1,0 +1,54 @@
+.purchase {
+  background: radial-gradient(94.87% 15543.47% at 4.58% 100%, #211B19 0%, #4E3326 100%);
+
+  &__wrapper {
+    width: 64.1667%;
+    @include flex-center-space-between;
+    // border: 1px solid cyan;
+  }
+
+  &__text_wrapper {}
+
+  &__title {
+    @include Ralewaythin(28px, 1.1786);
+    color: #C7B299;
+    margin-top: 44px;
+    /*font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 33px;*/
+  }
+
+  &__text {
+    @include Montserrat(18px, 1.2222, 300);
+    color: #615855;
+    margin: 6px 0 45px 0;
+    /*font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;*/
+    /* text-align: center; */
+  }
+
+  &__button_wrapper {
+    // margin: 56px 0 41px 0;
+  }
+
+  &__button {
+    background: #988574;
+    border-radius: 3px;
+    border: none;
+    @include Roboto(14px, 1.1429);
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 19px 32px;
+    /*font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;*/
+  }
+}

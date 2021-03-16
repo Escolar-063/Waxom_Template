@@ -1,0 +1,41 @@
+.counters {
+  background: radial-gradient(94.87% 15543.47% at 4.58% 100%, #211B19 0%, #4E3326 100%);
+
+  &__wrapper {
+    width: 40.94%;
+    @include flex-center-space-between;
+    padding: 35px 0 35px 0;
+  }
+
+  &__item {
+    @include flex-center-column;
+    /* border: 1px solid cyan; */
+  }
+
+  &__number {
+    @include Montserrat(48px, 1.2292, 300);
+    color: #FFFFFF;
+    padding-top: 2px;
+    /*font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 59px;*/
+  }
+
+  &__text {
+    @include Montserrat(14px, 1.2143, 300);
+    color: #C7B299;
+    padding-bottom: 15px;
+    /*font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;*/
+  }
+
+  &__line {
+    width: 30px;
+    border: 1px solid #FFFFFF;
+  }
+}

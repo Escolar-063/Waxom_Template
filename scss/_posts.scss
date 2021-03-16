@@ -1,0 +1,150 @@
+.posts {
+  margin: 0 auto;
+  @include flex-center-column;
+  
+  &__title {
+    @include Ralewaythin(30px, 1.1667, 600);
+    color: #555555;
+    text-align: center;
+    padding-top: 100px;
+    /*font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;*/
+  }
+
+  &__text {
+    @include Montserrat(16px, 1.75, 300);
+    width: 66%;
+    color: #8C8C8C;
+    text-align: center;
+    padding: 20px 0 30px 0;
+    /*font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;*/
+    // border: 1px solid cyan;
+  }
+
+  &__item_wrapper {
+    width: 66.6667%;
+    @include flex-center-space-between;
+    // border: 1px solid cyan;
+  }
+
+  &__item {
+    position: relative;
+    max-width: 370px;
+    border: 1px solid #B2B2B2;
+    // border: 1px solid cyan;
+  }
+
+  &__item:hover {
+    background: #352F2D;
+  }
+
+  &__item:hover &__calendar_data {
+    background: #C7B199;
+  }
+
+  &__item:hover &__calendar_month {
+    background: #A48D71;;
+  }
+
+  &__calendar_data {
+    position: absolute;
+    @include Montserrat(30px, 1.2333, 300);
+    /*font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 37px;*/
+    text-align: center;
+    color: #FFFFFF;
+    background: #363636;
+    border-radius: 3px 3px 0 0;
+    padding: 1px 7px 1px 6px;
+    margin: -211px 0 0 23px;
+    // border: 1px solid cyan;
+  }
+
+  &__calendar_month {
+    position: absolute;
+    @include Roboto(12px, 1.1667);
+    /*font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;*/
+    text-align: center;
+    color: #FFFFFF;
+    background: #242424;
+    border-radius: 0px 0px 3px 3px;
+    padding: 6px 13px 5px 13px;
+    margin: -172px 0 0 23px;
+    // border: 1px solid cyan;
+  }
+
+  &__item_title {
+    @include Ralewaythin(20px, 1.15, 500);
+    color: #555555;
+    padding: 31px 0 0 23px;
+    /*font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;*/
+  }
+
+  &__item_text {
+    @include Montserrat(14px, 1.5714, 300);
+    color: #998282;
+    padding: 22px 0 0 23px;
+    /*font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;*/
+  }
+
+  &__read-more_wrapper {
+    max-width: 108px;
+    @include flex-center-space-between;
+    // border: 1px solid cyan;
+  }
+
+  &__item_footer {
+    @include Montserrat(14px, 1.2143, 300);
+    color: #C7B299;
+    padding: 20px 0 20px 23px;
+    /*font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;*/
+  }
+
+  &__arrow_wrapper {
+    min-width: 74px;
+    @include flex-center-space-between;
+    padding: 54px 0 38px 0;
+  }
+
+  .fa-chevron-circle-left {
+    color:#D1D1D1;
+  }
+
+  .fa-chevron-circle-right {
+    color:#D1D1D1;
+  }
+
+  .fa-chevron-circle-left:hover {
+    color: #C7B299;
+  }
+
+  .fa-chevron-circle-right:hover {
+    color: #C7B299;
+  }
+}

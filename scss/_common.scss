@@ -1,0 +1,76 @@
+body {
+    width: 1920px;
+    font-family: Roboto, Montserrat, Ralewaythin, Arial, Helvetica, sans-serif;
+    /* font-family: Raleway, sans-serif/serif; */
+    /* font-family: Arial, Helvetica, sans-serif/serif; */
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+}
+
+/*@font-face {
+    font-family: 'roboto';
+    src: url('../fonts/roboto-regular.eot');
+    src: url('../fonts/roboto-regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/roboto-regular.woff2') format('woff2'),
+        url('../fonts/roboto-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('../fonts/montserrat-regular.eot');
+    src: url('../fonts/montserrat-regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/montserrat-regular.woff2') format('woff2'),
+        url('../fonts/montserrat-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('../fonts/montserrat-light.eot');
+    src: url('../fonts/montserrat-light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/montserrat-light.woff2') format('woff2'),
+        url('../fonts/montserrat-light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ralewaythin';
+    src: url('../fonts/raleway-variablefont_wght.eot');
+    src: url('../fonts/raleway-variablefont_wght.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/raleway-variablefont_wght.woff2') format('woff2'),
+        url('../fonts/raleway-variablefont_wght.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}*/
+
+/*@media (min-width: 376px) and (max-width: $tablet-width) {
+    .container {
+        width: 100%;
+        //width: 91.7%;
+    }
+}
+
+@media (max-width: $mobile-width) {
+    .container {
+        width: 100%;
+    }
+}*/
+
